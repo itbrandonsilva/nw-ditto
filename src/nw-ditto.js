@@ -156,7 +156,7 @@ DittoSocket.prototype._handleConnect = function (msg, rinfo) {
 };
 
 DittoSocket.prototype._registerConnection = function (id, address, port) {
-    this._connections[id] = {rinfo: {address: address, port: port}, unackd: {}, latency};
+    this._connections[id] = {rinfo: {address: address, port: port}, unackd: {}, latency: []};
 };
 
 DittoSocket.prototype._survey = function () {
