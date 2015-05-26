@@ -1,0 +1,13 @@
+{
+  "name": "nw-ditto",
+  "version": "1.0.0",
+  "description": "Sync objects across UDP",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Silva",
+  "license": "ISC",
+  "dependencies": {
+    "node-uuid": "^1.4.3"
+  }
+}
