@@ -55,11 +55,6 @@ DittoSocket.prototype.start = function (address, port) {
     this._connect(address, port);
 };
 
-    //socket.on('message', function (data, rinfo) {
-
-    //});
-
-
 // Options passed to 'options' that are only used internally should instead be
 // collapsed into an 'internals' or 'headers' option of sorts.
 
